@@ -12,10 +12,10 @@ npm start
 
 - Preview production
 ```
-npm preview
+npm run preview
 ```
 
 - Build production
 ```
-npm build
+npm run build
 ```

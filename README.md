@@ -14,6 +14,11 @@ Minimal starter project using [THREE.js](https://threejs.org/) ES6 modules with 
 
 ```
 vanillaest-three/
+├── .github
+│   └── dependabot.yml
+├── public
+│   ├── favicon.ico
+│   └── social-image.png
 ├── src/
 │   ├── main.js
 │   └── style.css
@@ -25,10 +30,12 @@ vanillaest-three/
 └── package.json
 ```
 
-- **package.json**: Contains project dependencies and scripts.
-- **index.html**: The main HTML file that includes the script and stylesheet.
-- **src/main.js**: The JavaScript entry point that sets up the THREE.js scene using ES6 modules.
-- **src/style.css**: Basic styles for the project.
+- **`index.html`**: The main HTML file that featuring the main script and stylesheet.
+- **`src/main.js`**: The JavaScript entry point that sets up the THREE.js scene using ES6 modules.
+- **`src/style.css`**: Basic styles for the project.
+- **`public/`**: Contains static assets like `favicon.ico` that are publicly accessible.
+- **`.github/dependabot.yml`**: Configures automated dependency updates using Dependabot.
+- **`package.json`**: Includes project dependencies and scripts.
 
 ## Getting Started
 

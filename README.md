@@ -1,6 +1,6 @@
 # Vanillaest Three
 
-Minimal starter project using [THREE.js](https://threejs.org/) **ES6 modules** with [Vite](https://vitejs.dev/) for cleaner and modular code. It sets up a basic scene with a rotating cube to help you get started quickly.
+Minimal starter project using [THREE.js](https://threejs.org/) ES6 modules with [Vite](https://vitejs.dev/) for cleaner and modular code. It sets up a basic scene with a rotating cube to help you get started quickly.
 
 ## Features
 
@@ -10,12 +10,31 @@ Minimal starter project using [THREE.js](https://threejs.org/) **ES6 modules** w
 - **Three.js Integration**: Ready-to-go scene with a rotating cube.
 - **Hot Module Replacement**: Instant updates during development.
 
-## Prerequisites
+## Project Structure
+
+```
+vanillaest-three/
+├── src/
+│   ├── main.js
+│   └── style.css
+├── .gitignore
+├── index.html
+├── LICENSE
+├── package.json
+└── README.md
+```
+
+- **package.json**: Contains project dependencies and scripts.
+- **index.html**: The main HTML file that includes the script and stylesheet.
+- **src/main.js**: The JavaScript entry point that sets up the THREE.js scene using ES6 modules.
+- **src/style.css**: Basic styles for the project.
+
+## Getting Started
+
+### Prerequisites
 
 - [Node.js](https://nodejs.org/) (v14 or higher)
 - [npm](https://www.npmjs.com/) (v6 or higher)
-
-## Getting Started
 
 ### Installation
 
@@ -59,25 +78,6 @@ To preview the production build locally:
 ```bash
 npm run preview
 ```
-
-## Project Structure
-
-```
-vanillaest-three/
-├── src/
-│   ├── main.js
-│   └── style.css
-├── .gitignore
-├── index.html
-├── LICENSE
-├── package.json
-└── README.md
-```
-
-- **package.json**: Contains project dependencies and scripts.
-- **index.html**: The main HTML file that includes the script and stylesheet.
-- **src/main.js**: The JavaScript entry point that sets up the THREE.js scene using ES6 modules.
-- **src/style.css**: Basic styles for the project.
 
 ## Usage
 

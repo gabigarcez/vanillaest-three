@@ -18,10 +18,11 @@ vanillaest-three/
 │   ├── main.js
 │   └── style.css
 ├── .gitignore
-├── index.html
 ├── LICENSE
-├── package.json
-└── README.md
+├── README.md
+├── index.html
+├── package-lock.json
+└── package.json
 ```
 
 - **package.json**: Contains project dependencies and scripts.

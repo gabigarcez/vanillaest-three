@@ -1,13 +1,32 @@
 {
-  "name": "vanillaest-threejs",
+  "name": "vanillaest-three",
   "private": true,
   "version": "0.1.0",
+  "description": "Minimal Three.js ES6 starter project with Vite.",
+  "main": "index.html",
   "scripts": {
-    "start": "vite",
+    "start": "vite --port 3000",
     "build": "vite build",
     "preview": "vite preview"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabigarcez/vanillaest-three.git"
+  },
+  "keywords": [
+    "three.js",
+    "vite",
+    "es6",
+    "webgl",
+    "javascript",
+    "starter-project"
+  ],
+  "author": "Gabriela Garcez",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabigarcez/vanillaest-three/issues"
+  },
+  "homepage": "https://github.com/gabigarcez/vanillaest-three#readme",
   "dependencies": {
     "three": "^0.169.0"
   },
